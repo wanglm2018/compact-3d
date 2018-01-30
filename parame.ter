@@ -1,0 +1,36 @@
+-------------------------------------------------------------
+THE INLFOW DATA GENERATION FOR TURBULENT CHANNEL FLOW 
+-------------------------------------------------------------
+SIMULATION TYPE (SG=1,CS=2,DNS=0)  FILES    :            1.0
+SIMULATION TYPE (S=1,P=2,M=3)    WMODEL     :            0.0
+SIMULATION TYPE (RAns=1,P=2)     NEARWALL   :              0
+THE NUMBER OF GRID IN X1 DIRECTION   N1     :            251
+THE NUMBER OF GRID IN X2 DIRECTION   N2     :             91
+THE NUMBER OF GRID IN X3 DIRECTION   N3     :            189
+REYNOLDS NUMBER                      RE     :         7631.0
+THE PHYSICAL LENGTH IN X1            ALX    :          1.667
+THE PHYSICAL LENGTH IN X3            ALZ    :           1.25
+THE PHYSICAL LENGTH IN X1X3        INCODE   :              1
+THE TOTAL TIME STEP                 NTST    :         110000
+INITIAL TURBULENCE INTENSITY         VPER   :           0.10
+TIME STEP                            DT     :           0.01
+THE CFL NUMBER CONTROL               IDTOPT :              1
+MAXIMUM CFL NUMBER                   CFLMAX :           0.25
+WRITE OPTION        (YES=1)          NWRITE :              1
+READ OPTION (YES=1, N1M/2->N1M=2)    NREAD  :              0
+AVERAGING OPTION (TRAN=0,AVG=1,CON=2)IAVG   :              1
+INTERVAL OF PRINT OUTPUT FILE        NPRN   :          10000
+WRITE INSTANTANEOUS FLOW FIELD(YES=1)INSF   :              1
+INTERVAL OF PRINT IN INSF(Non-zero)  NINS   :          10000
+-------------------------------------------------------------
+FILENAMES                                                    
+INPUT FILE FOR READUP                FILEINI:
+tran.025000
+GRID FILE IN Y DOMAIN                FILEGRD:
+channel.grd
+-------------------------------------------------------------
+1234567890123456789012345678901234567890123456789012234567890
+
+channel.grd
+-------------------------------------------------------------
+1234567890123456789012345678901234567890123456789012234567890
